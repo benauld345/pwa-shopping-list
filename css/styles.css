@@ -18,6 +18,12 @@ body {
   text-align: center;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
 .pwa-header__form-wrapper {
   display: inline-block;
   width: 100%;
