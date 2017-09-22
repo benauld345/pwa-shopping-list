@@ -1,0 +1,46 @@
+/**
+ * General Styling
+ */
+
+body {
+  color: #222222;
+  font-family: sans-serif;
+}
+
+/**
+ * Header Styling
+ */
+
+.pwa-header__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+.pwa-header__form-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+input {
+  -webkit-appearance: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  margin: 0;
+  outline: none;
+}
+
+button {
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  background-image: url( '/img/add.png' );
+  background-size: 15px;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  padding-right: 25px;
+  cursor: pointer;
+}
